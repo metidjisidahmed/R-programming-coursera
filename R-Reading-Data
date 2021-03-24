@@ -1,0 +1,31 @@
+--------------- Reading------------
+read.table and read.csv : to read tabular data
+readLines : to read lines from Text File
+source and dget : for reading a R file
+unserialize : for reading R objects in binary form
+---------------Writing ---------------------
+write.table
+writeLines
+dput
+save
+serialize
+----------------------- Reading with read.table / read.csv ------------
+required argument :
+  file : the path to the file
+optional:
+  header : to tell if ther  is a header (Logical)
+  sep: the separator between the columns (String)
+  colClasses : indicating the class of each element in the column (Vector of Strings)
+  nrows : number of rows (Numerical)
+  comment.char : a string character indicating the comment (String)
+  skip : the number of ignes to skip from beginning (Numerical)
+  stringAsFactors : Logical
+by default :
+  comment.char="#" for read.data and "," for read.csv
+  nrows=calcualted by R
+  colClasses= defined by R
+  
+  
+  
+
+

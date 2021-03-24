@@ -1,0 +1,2 @@
+getwd() : to get the actual directory
+read.csv("file.csv") : to read a csv file 
